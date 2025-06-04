@@ -1,0 +1,57 @@
+:root{
+  --bg-page: #F7F7F7;
+  --green1: #9DF8B6;
+  --green2: #90E9A9;
+  --green3: #82DD9C;
+  --green4: #6EC887;
+  --green8: #2C8D47;
+  --gray10: #2E2E2E;
+  --gray12: #0E0E0E;
+}
+
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url(/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'poppins-semibold';
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-size: inherit;
+}
+
+h1{
+  font-size: 6.4rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+h3{
+  font-size: 3.6rem;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.4rem;
+}
+
+img {
+  max-width: 100vh;
+}
