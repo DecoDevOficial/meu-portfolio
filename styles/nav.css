@@ -1,0 +1,20 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 14rem;
+  align-items: center;
+  font-family: "poppins-semibold";
+}
+
+.nav-options{
+  display: flex;
+  gap: 6rem;
+}
+
+.button-curriculum{
+  background-image: var(--gradient);
+  color: var(--gray1);
+  padding: 1.5rem 3rem;
+  border-radius: 0.6rem;
+  text-transform: uppercase;
+}
